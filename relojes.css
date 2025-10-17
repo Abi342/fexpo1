@@ -1,0 +1,68 @@
+body {
+  background-image: url("fondo2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: #0f172a;
+  font-size: 2em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2, h3, h4 {
+  color: #a70491;
+  font-family: initial;
+  font-size: 150%;
+}
+
+marquee {
+  background-color: #a6f781;
+  padding: 10px;
+  border-radius: 10px;
+  color: #c0d316;
+}
+
+video {
+  border: 5px solid #68ebf0;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+p {
+  max-width: 700px;
+  margin: 0 auto 20px;
+  font-size: 1.1em;
+  line-height: 1.5;
+  font-family: fantasy;
+}
+
+.galeria {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.galeria img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 5px solid #7de9e9;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.galeria img:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: #9de3f0;
+  color: rgb(3, 1, 1);
+  padding: 10px 0;
+  margin-top: 30px;
+  font-size: 0.9em;
+  border-radius: 10px 10px 0 0;
+}

@@ -1,0 +1,129 @@
+
+body 
+{
+  background-image: url("fondo3.jpg");
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  color: #f040e7;
+  text-align: center;
+  background-size: cover;
+}
+
+.banner {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 25px 10px;
+  border-radius: 0 0 25px 25px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  animation: bannerAnim 8s ease-in-out infinite alternate;
+}
+
+@keyframes bannerAnim {
+  0% { letter-spacing: 2px; transform: scale(1); }
+  50% { letter-spacing: 5px; transform: scale(1.05); }
+  100% { letter-spacing: 2px; transform: scale(1); }
+}
+
+h1 {
+  font-size: 200%;
+  margin: 0;
+  font-weight: bold;
+  color: #9d174d;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.video-section {
+  background-color: rgba(255, 143, 227, 0.9);
+  width: 90%;
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 25px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.video-section:hover {
+  transform: translateY(-5px);
+}
+
+.video-section h2 {
+  color: #be185d;
+  font-size: 180%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+video {
+  width: 75%;
+  max-width: 600px;
+  border: 5px solid #db2777;
+  border-radius: 15px;
+  margin-top: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.productos-section {
+  background-color: rgba(255,255,255,0.9);
+  width: 90%;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 25px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.productos-section h3 {
+  font-size: 150%;
+  color: #831843;
+  font-family: cursive;
+}
+
+.productos-section h4 {
+  font-size: 160%;
+  color: #ec4899;
+  margin-bottom: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin: 20px 0;
+}
+
+.galeria img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 25px;
+  border: 4px solid #ec4899;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.galeria img:hover {
+  transform: scale(1.1) rotate(-2deg);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+p {
+  font-size:150%; 
+  line-height: 1.7;
+  color: #4a044e;
+  max-width: 750px;
+  margin: 0 auto 25px;
+}
+
+footer {
+  background-color: rgba(219,39,119,0.9);
+  color: white;
+  padding: 18px 0;
+  margin-top: 40px;
+  font-size: 1.1em;
+  border-radius: 25px 25px 0 0;
+  box-shadow: 0 -4px 10px rgba(0,0,0,0.3);
+  font-weight: bold;
+}
+
